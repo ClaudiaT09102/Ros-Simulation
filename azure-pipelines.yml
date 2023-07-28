@@ -5,7 +5,8 @@
 
 name: Ros-Simulation-CI
 
-queue: 'Hosted Ubuntu 1604'
+pool:
+    vmImage: 'ubuntu-latest'
 
 trigger:
   branches:
